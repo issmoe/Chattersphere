@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatterSphere | Modern Chat System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="icon" href="/images/chattersphere-logo.png">
+    
+</head>
+<body>
+    <div class="bg-animation" id="bgAnimation"></div>
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <i class="fas fa-comments"></i>
+                <span>ChatterSphere</span>
+            </div>
+            <button class="mobile-menu-close" id="mobileMenuClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="logo">
+            <i class="fas fa-comments"></i>
+            <span>ChatterSphere</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="cta-buttons">
+            <button class="toggle-mode" id="toggleMode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <a href="#" class="btn btn-outline">Sign In</a>
+            <a href="#" class="btn btn-primary">Get Started</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Connect & Collaborate in <span>Real-Time</span> Chat</h1>
+            <p class="hero-description">ChatterSphere brings teams together with secure, lightning-fast messaging that works anywhere. Experience the future of communication with our intuitive platform.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">Get Started Free</a>
+                
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Active Users</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Business Clients</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">99.9%</span>
+                    <span class="stat-label">Uptime</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="chat-app-mockup">
+                <img src="/images/kuu-akura-pnK6Q-QTHM4-unsplash.jpg" alt="ChatterSphere App Interface">
+            </div>
+            <div class="floating-elements">
+                <div class="floating-element" style="width: 100px; height: 100px; top: 10%; left: 10%; animation-delay: 0s;"></div>
+                <div class="floating-element" style="width: 50px; height: 50px; top: 20%; right: 20%; animation-delay: 1s;"></div>
+                <div class="floating-element" style="width: 80px; height: 80px; bottom: 15%; left: 30%; animation-delay: 2s;"></div>
+                <div class="floating-element" style="width: 70px; height: 70px; bottom: 25%; right: 15%; animation-delay: 3s;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="section-title">
+            <h2>Powerful Features</h2>
+            <p>Discover what makes ChatterSphere the preferred choice for teams and individuals looking for seamless communication.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3 class="feature-title">Lightning Fast</h3>
+                <p class="feature-desc">Experience real-time messaging with sub-second delivery across any distance. Our optimized infrastructure ensures your messages arrive instantly.</p>
+                
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h3 class="feature-title">End-to-End Encryption</h3>
+                <p class="feature-desc">Your conversations are protected with military-grade encryption. We ensure that only you and your intended recipients can read your messages.</p>
+                
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3 class="feature-title">Cross-Platform</h3>
+                <p class="feature-desc">Access ChatterSphere from any device. Our apps for iOS, Android, Windows, Mac, and web ensure you're always connected, wherever you are.</p>
+                
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3 class="feature-title">Seamless Integrations</h3>
+                <p class="feature-desc">Connect with over 2,000 apps and services. Automate workflows and bring all your tools into one centralized communication hub.</p>
+                
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3 class="feature-title">Powerful Search</h3>
+                <p class="feature-desc">Find any message, file, or link with our advanced search capabilities. Never lose important information again with our intelligent indexing.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-title">
+            <h2>How It Works</h2>
+            <p>Getting started with ChatterSphere is easy. Follow these simple steps to revolutionize your team communication.</p>
+        </div>
+        <div class="steps-container">
+            <div class="steps-line"></div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                        <div class="step-number">1</div>
+                    </div>
+                    <h3 class="step-title">Create Account</h3>
+                    <p class="step-desc">Sign up for free in less than a minute with your email or social accounts.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-users-cog"></i>
+                        <div class="step-number">2</div>
+                    </div>
+                    <h3 class="step-title">Search for users</h3>
+                    <p class="step-desc">Search fo users via email or usernames.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-comments"></i>
+                        <div class="step-number">3</div>
+                    </div>
+                    <h3 class="step-title">Start Chatting</h3>
+                    <p class="step-desc">Begin collaborating in real-time with messages, files, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="section-title">
+            <h2>What Our Users Say</h2>
+            <p>Thousands of people trust ChatterSphere for their communication needs. Here's what some of them have to say.</p>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">ChatterSphere has transformed how our remote team collaborates. The interface is intuitive, the features are powerful, and the reliability is outstanding. We've seen a 40% increase in team productivity since switching.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/uploaded_img/default-avatar.png" alt="Sarah Benadda" class="author-avatar">
+                        <h4 class="author-name">Rawnak Benadda</h4>
+                        <p class="author-title">CS Graduate</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">As a startup with team members across three continents, communication was a challenge until we found ChatterSphere. The app's speed and reliability have made our collaboration seamless, and the integrations save us hours every week.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/uploaded_img/default-avatar.png" alt="Mohamed Samer" class="author-avatar">
+                        <h4 class="author-name">Mohamed Samer</h4>
+                        <p class="author-title">CS student</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">Security was our top priority when choosing a communication platform. ChatterSphere exceeded our expectations with their end-to-end encryption and compliance features. Our IT team finally sleeps well at night!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/uploaded_img/default-avatar.png" alt="Abdellah Otsmane " class="author-avatar">
+                        <h4 class="author-name">Abdellah Otsmane </h4>
+                        <p class="author-title">CS student</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots" id="testimonialDots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <p>Have questions? We've got answers. If you can't find what you're looking for, feel free to contact our support team.</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item active">
+                <div class="faq-question">
+                    <span>Is ChatterSphere free to use?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, ChatterSphere offers a free plan that includes basic features for teams of up to 10 members. For larger teams or advanced features, we offer affordable Pro and Enterprise plans with additional capabilities.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How secure is my data on ChatterSphere?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>ChatterSphere employs end-to-end encryption for all messages and files. Your data is encrypted both in transit and at rest. We adhere to industry-leading security standards and regularly undergo third-party security audits to ensure your information remains protected.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I integrate ChatterSphere with other tools?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! ChatterSphere offers seamless integration with over 2,000 popular tools and services including Google Workspace, Microsoft 365, Slack, Trello, Asana, GitHub, and many more. Our API also allows for custom integrations if needed.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Is ChatterSphere available on mobile devices?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, ChatterSphere is available on iOS and Android devices. Our mobile apps offer the same powerful features as our desktop and web versions, ensuring you stay connected on the go. You can download them from the App Store or Google Play Store.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How do I get support if I have issues?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>We offer multiple support channels including an extensive knowledge base, community forums, email support, and live chat. Pro and Enterprise plans include priority support with faster response times. Our support team is available 24/7 to help resolve any issues you may encounter.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <div class="cta-content">
+            <h2 class="cta-title">Ready to Transform Your Team Communication?</h2>
+            <p class="cta-description">Join thousands of teams who have already improved their collaboration with ChatterSphere. Get started in minutes with our free plan.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-light">Start For Free</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <i class="fas fa-comments"></i>
+                    <span>ChatterSphere</span>
+                </div>
+                <p class="footer-description">ChatterSphere is a modern team communication platform that brings together messaging, file sharing, video calls, and integrations in one place.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Partners</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Legal</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <p>Get the latest updates, news and product offers sent directly to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" class="newsletter-input">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2025 ChatterSphere. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const bgAnimation = document.getElementById('bgAnimation');
+        const toggleMode = document.getElementById('toggleMode');
+        const header = document.getElementById('header');
+        const backToTop = document.getElementById('backToTop');
+        const steps = document.querySelectorAll('.step');
+        const faqItems = document.querySelectorAll('.faq-item');
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileMenuClose = document.getElementById('mobileMenuClose');
+        const testimonialsSlider = document.getElementById('testimonialsSlider');
+        const testimonialDots = document.querySelectorAll('.dot');
+
+        // Create background animation elements
+        function createBgElements() {
+            bgAnimation.innerHTML = '';
+            const numberOfElements = 15;
+            
+            for (let i = 0; i < numberOfElements; i++) {
+                const span = document.createElement('span');
+                const size = Math.random() * 50 + 10;
+                const left = Math.random() * 100;
+                const delay = Math.random() * 15;
+                const duration = Math.random() * 10 + 10;
+                
+                span.style.width = `${size}px`;
+                span.style.height = `${size}px`;
+                span.style.left = `${left}%`;
+                span.style.animationDelay = `${delay}s`;
+                span.style.animationDuration = `${duration}s`;
+                
+                bgAnimation.appendChild(span);
+            }
+        }
+        
+        // Toggle dark/light mode
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            
+            if (isDarkMode) {
+                toggleMode.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                toggleMode.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+            
+            // Store user preference
+            localStorage.setItem('darkMode', isDarkMode);
+        }
+        
+        // Check for saved user preference
+        function checkDarkModePreference() {
+            const darkMode = localStorage.getItem('darkMode');
+            
+            if (darkMode === 'true') {
+                document.body.classList.add('dark-mode');
+                toggleMode.innerHTML = '<i class="fas fa-sun"></i>';
+            }
+        }
+        
+        // Handle scroll events
+        function handleScroll() {
+            const scrollPosition = window.scrollY;
+            
+            // Header scroll effect
+            if (scrollPosition > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            // Back to top button visibility
+            if (scrollPosition > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+            // Animate steps on scroll
+            steps.forEach(step => {
+                const stepTop = step.getBoundingClientRect().top;
+                if (stepTop < window.innerHeight * 0.8) {
+                    step.classList.add('visible');
+                }
+            });
+        }
+        
+        // Handle FAQ toggles
+        function toggleFaq() {
+            const faqItem = this.parentElement;
+            
+            faqItems.forEach(item => {
+                if (item !== faqItem) {
+                    item.classList.remove('active');
+                }
+            });
+            
+            faqItem.classList.toggle('active');
+        }
+        
+        // Mobile menu functions
+        function openMobileMenu() {
+            mobileMenu.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeMobileMenu() {
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        
+        // Testimonial slider
+        let currentSlide = 0;
+        
+        function showSlide(index) {
+            testimonialsSlider.style.transform = `translateX(-${index * 100}%)`;
+            
+            testimonialDots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+            
+            currentSlide = index;
+        }
+        
+        function nextSlide() {
+            const nextIndex = (currentSlide + 1) % testimonialDots.length;
+            showSlide(nextIndex);
+        }
+        
+        // Initialize slider autoplay
+        let sliderInterval = setInterval(nextSlide, 5000);
+        
+        // Event Listeners
+        window.addEventListener('DOMContentLoaded', () => {
+            createBgElements();
+            checkDarkModePreference();
+            handleScroll();
+            
+            // Make first step visible immediately
+            steps[0].classList.add('visible');
+            
+            // Initialize testimonial slider
+            showSlide(0);
+        });
+        
+        window.addEventListener('scroll', handleScroll);
+        
+        toggleMode.addEventListener('click', toggleDarkMode);
+        
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', toggleFaq);
+        });
+        
+        mobileMenuBtn.addEventListener('click', openMobileMenu);
+        mobileMenuClose.addEventListener('click', closeMobileMenu);
+        
+        testimonialDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                clearInterval(sliderInterval);
+                showSlide(index);
+                sliderInterval = setInterval(nextSlide, 5000);
+            });
+        });
+        
+        // Prevent testimonial autoplay when user is interacting
+        testimonialsSlider.addEventListener('mouseenter', () => {
+            clearInterval(sliderInterval);
+        });
+        
+        testimonialsSlider.addEventListener('mouseleave', () => {
+            sliderInterval = setInterval(nextSlide, 5000);
+        });
+    </script>
+</body>
+</html>
